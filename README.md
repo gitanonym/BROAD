@@ -18,7 +18,7 @@ Decision trees are widely used in machine learning due to their interpretability
 ## Reproduce:
 To run the algorithms, all needed is:
 1. Install the required packages using [the requirements file](https://github.com/gitanonym/BROAD/blob/main/requirements.txt).
-2. Choose your desired experiment [in the tester-constatns file by DRIFT_SYNTHESIZING_VERSION value](https://github.com/gitanonym/DAPCROP/blob/main/code/Tester/TesterConstants.py#L18) (1 for experiment1, 2 for experiment2).
+2. Choose your desired experiment [in the tester-constatns file by DRIFT_SYNTHESIZING_VERSION value](https://github.com/gitanonym/BROAD/blob/main/code/Tester/TesterConstants.py#L18) (the experiment number).
 3. Run test_all.py file with -d 1 argument: 
     ```
         python -m test_all.py -d 1
